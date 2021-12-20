@@ -1,0 +1,22 @@
+#todo-list {
+    margin-top: 24px;
+}
+
+#todo-list div {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 8px;
+}
+
+#todo-list div > *:first-child {
+    flex-grow: 1;
+}
+
+.due {
+    background-color: yellow;
+}
+
+.overdue {
+    background-color: red;
+}

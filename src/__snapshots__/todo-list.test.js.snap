@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoList renderTodos() should render the todos (snapshot test) 1`] = `
+<body>
+  <div
+    class="overdue"
+  >
+    <span>
+      send seminar paper to peer reviewers
+    </span>
+    <span>
+      due on: 10/18/2021
+    </span>
+    <button>
+      Remove TODO
+    </button>
+  </div>
+  <div
+    class="due"
+  >
+    <span>
+      upload seminar paper to Moodle
+    </span>
+    <span>
+      due on: 11/15/2021
+    </span>
+    <button>
+      Remove TODO
+    </button>
+  </div>
+  <div>
+    <span>
+      send presentation to peer reviewers
+    </span>
+    <span>
+      due on: 12/6/2021
+    </span>
+    <button>
+      Remove TODO
+    </button>
+  </div>
+  <div>
+    <span>
+      upload presentation to Moodle
+    </span>
+    <span>
+      due on: 12/22/2021
+    </span>
+    <button>
+      Remove TODO
+    </button>
+  </div>
+</body>
+`;

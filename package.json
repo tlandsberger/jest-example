@@ -1,0 +1,22 @@
+{
+  "name": "todo-list",
+  "description": "A simple app to manage TODO items",
+  "author": "Tim Landsberger, Fachhochschule Wedel, inf104636@fh-wedel.de",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "http-server ./src -o -c-1",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watchAll"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "transform": {}
+  },
+  "dependencies": {
+    "http-server": "^13.0.2"
+  },
+  "devDependencies": {
+    "jest": "^27.2.4"
+  }
+}
